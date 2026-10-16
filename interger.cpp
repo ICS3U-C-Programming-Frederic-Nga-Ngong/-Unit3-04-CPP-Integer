@@ -10,17 +10,17 @@ int main() {
     float number;
 
     // Get the number form the user
-    std::cout << "Enter a number";
+    std::cout << "Enter a number\n";
     std::cin >> number;
 
     // Checks if the number is positive
     if ( number > 0 ) {
-        std::cout << "  is positive" << number;
+        std::cout << number << "  is positive";
 
         // Checks if the number is just zero
     } else if ( number == 0 ) {
-        std::cout << "  is just zero" << number;
+        std::cout << number << "  is just zero";
 
         // Checks if the number is negative
     } else  {
-        std::cout << "  is negative" << number; }}
+        std::cout << number << "  is negative";}}
